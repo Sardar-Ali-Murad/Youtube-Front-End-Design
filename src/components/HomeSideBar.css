@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+.SidebarMain{
+    width:100px;
+    height:100vh;
+    background: white;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+.singles{
+    line-height: 7px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singles:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SideBarIconsMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SideBarText{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.menu{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:600px){
+    .SidebarMain{
+        display: none;
+    }
+}
+

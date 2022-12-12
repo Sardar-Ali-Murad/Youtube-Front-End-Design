@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Cormorant+Garamond:wght@300&display=swap');
+
+.BigSideBarMain{
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    width: 200px;
+    height: 100vh;
+    /* position: relative; */
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    transition:all 3s linear;
+    animation: bar .5s linear;
+    top: 0;
+    bottom: 0;
+}
+
+.inactiveBar{
+    transform: translateX(-200px);
+}
+
+.activeBar{
+    transform: translateX(0px);
+}
+
+@keyframes bar {
+
+    from {transform: translateX(-200px)}
+  to {transform: translateX(0px)}
+}
+
+.overlay{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(0,0,0, .4);
+}
+
+.firstPortion{
+    display: flex;
+    margin-top: 20px;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.singleBigBar{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.singleCover:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.singleBigBar:hover{
+    background-color: lightgray;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background: lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fourthPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.fourthPart p{
+    margin-left: 25px;
+    font-family: 'Arima', cursive
+}

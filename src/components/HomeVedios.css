@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Cormorant+Garamond:wght@300&family=Cormorant+Upright:wght@300&family=Lato&display=swap');
+
+
+.allVediosMain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,1fr));
+    gap: 1.2rem;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.allVediosMain .bigImage{
+    width: 100%;
+}
+
+.allVediosMain .smallImage{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.des-image{
+    display: flex;
+}
+
+.des{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.lastPart{
+    display: flex;
+    flex-direction: column;
+    line-height: -1px;
+    /* background-color: red; */
+    justify-content: start;
+    margin-right: 38%;
+    width: 100%;
+    font-family: 'Cormorant Upright', serif;
+}
+
+.lastPart p{
+    margin: 2px;
+    margin-bottom: 6px;
+}
+.single{
+    /* line-height: 4px; */
+    /* height: 60%; */
+    /* line-height: 1px; */
+}
+
+.lastPart{
+    /* line-height: 1px; */
+}
+
+.lastPart p{
+    /* line-height: 1px; */
+}
+
+.bigImage{
+    width: 100%;
+    height: 100%;
+    height: 200px;
+}
+
+@media screen and(max-width:600px) {
+    .allVediosMain{
+        margin-top: 20%;
+    }
+}

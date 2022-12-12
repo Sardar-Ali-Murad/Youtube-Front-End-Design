@@ -1,0 +1,10 @@
+.scroll{
+    width:100%;
+    border-bottom: 1px solid grey;
+}
+
+@media screen and (max-width:600px){
+    .scroll{
+        width: 100%;
+    }
+}

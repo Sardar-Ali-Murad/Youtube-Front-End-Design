@@ -1,0 +1,27 @@
+.SingleVedioMainOverlay{
+    display: flex;
+    padding: 20px;
+}
+
+.firstLayout{
+    /* background-color: red; */
+    width: 100%;
+}
+
+.ReleatedVediosSecond{
+    display: none;
+}
+
+
+@media screen and (max-width:1000px){
+    
+    .SingleVedioMainOverlay{
+        flex-direction: column;
+    }
+    .ReleatedVediosSecond{
+        display: block;
+    }
+    .ReleatedVediosFirst{
+        display: none;
+    }
+}

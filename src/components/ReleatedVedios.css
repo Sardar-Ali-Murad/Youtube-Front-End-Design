@@ -1,0 +1,30 @@
+.ReleatedVediosMain{
+    margin-top: 93px;
+}
+
+.ReleatedVediosMain .single{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.ReleatedVediosMain img{
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.titles,.infos{
+    font-family: 'Roboto Flex', sans-serif;
+    color: gray;
+    font-size: 16px;
+}
+
+.singleVedioParas p{
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.bigImage{
+    width: 300px;
+    height: 200px;
+}

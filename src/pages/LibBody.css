@@ -1,0 +1,22 @@
+.libraryInfo{
+    display: flex;
+}
+
+.grids{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+    gap: 2rem;
+    width: 80%;
+    margin-right: 30px;
+}
+
+.grids img{
+    width: 300px;
+    height: 200px;
+}
+
+@media screen and (max-width:500px){
+    .libraryInfo{
+        flex-direction: column-reverse;
+    }
+}

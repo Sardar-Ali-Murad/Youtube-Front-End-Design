@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Cormorant+Garamond:wght@300&family=Cormorant+Upright:wght@300&family=Lato&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+.FrontLayoutMain{
+    margin-top: 80px;
+    /* padding: 20px; */
+}
+
+.layoutTitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.frontInfoReact{
+    display: flex;
+}
+
+.frontLayoutDes{
+    /* font-family: 'Cormorant Upright', serif; */
+    font-size: 16px;
+    flex: 1;
+    font-family: 'Roboto Flex', sans-serif;
+    color: gray;
+}
+
+.frontLayoutDes span{
+    color: black;
+}
+
+.actionIcons {
+  margin-left: 30px;
+
+}
+.actionIcons p{
+}
+
+.actionIcons p{
+    font-size: 16px;
+    flex: 1;
+    font-family: 'Roboto Flex', sans-serif;
+    color: black;   
+    margin-top: 40px;
+}
+
+.VedioInfoPart p{
+    margin: 0px;
+}
+
+.dark{
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+    color: dark;
+}
+
+.light{
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+    color: gray;
+}
+
+.channelSmallInfo{
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+    line-height: -10rem;
+    /* letter-spacing: 2px; */
+}
+
+.channelSmallInfo p{
+    margin: 10px;
+}
+
+.InfoBox{
+    display: flex;
+}
+
+.channelInfo{
+    display: flex;
+    border: 1.2px solid lightgray;
+    padding: 10px;
+    width: 47%;
+    height: 70px;
+    margin-right: 20px;
+}
+
+
+.commentsInfo{
+    padding: 4px;
+    border-right: .7px solid lightgrey;
+}
+
+.addComment{
+    background: lightgray;
+    padding: 8px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.boxes{
+    display: flex;
+    width: 100%;
+}
+
+.CommentInfoBox{
+   height: 70px;   
+   display: flex;
+   border: .7px solid lightgrey;
+   width: 47%;
+}
+
+.CommentInfoBox p{
+    margin: 4px;
+    width: 100%;
+}
+
+.ChangingPart{
+    display: flex;
+}
+
+@media screen and (max-width:1000px){
+    .ChangingPart{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .boxes{
+        flex-direction: column;
+        margin-right: 30px;
+    }
+    .channelInfo{
+       width: 90%;
+       margin-bottom: 20px;
+    }
+    .CommentInfoBox{
+        width: 90%;
+    }
+    .addComment{
+        margin: 14px;
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    
+}

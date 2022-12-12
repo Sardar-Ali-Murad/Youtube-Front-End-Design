@@ -1,0 +1,17 @@
+.MainCommentsPart p{
+    margin: 0px;
+}
+
+.ChangingPartInComments{
+    display: none;
+}
+.titlesDes{
+    width: 40%;
+}
+
+@media screen and (max-width:1000px){
+    .ChangingPartInComments{
+        display: block;
+        margin-bottom: 30px;
+    }
+}

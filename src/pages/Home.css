@@ -1,0 +1,24 @@
+.body{
+    width: 92%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.bigOpen{
+    width:100%
+}
+
+.stickyNav{
+    position: sticky;
+    top: 0;
+}
+
+.HistoryOne{
+  width: 70%;
+}
+
+@media screen and (max-width:600px){
+    .body{
+        width: 100%;
+    }
+}

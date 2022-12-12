@@ -1,0 +1,67 @@
+.Youtube{
+    color: red;
+}
+
+.navMain{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    /* height: 80px; */
+    align-items: center;
+    border-bottom: 1px solid grey;
+    /* background-color: red; */
+    position: fixed;
+    top: 0px;
+    /* left: 0; */
+    /* bottom: 0; */
+    /* background-color: red; */
+    padding-right: 24%;
+}
+
+.mike{
+    background-color: lightgray;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.loginButton{
+    width:100px;
+    height: 50px;
+}
+
+.login{
+    /* background-color: red; */
+    display: flex;
+}
+
+.navMenu{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .login{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    .mike{
+        display: none;
+    }
+    .navMenu{
+        display: block;
+    }
+    .navMain{
+        padding-left: 5%;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width:400px){
+}

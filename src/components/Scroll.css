@@ -1,0 +1,15 @@
+.scroll{
+    width:100%;
+    border-bottom: 1px solid grey;
+}
+.scrollMain{
+    margin-bottom: 10px;
+    position: fixed;
+    top: 84px;
+    margin-bottom: 70px;
+}
+@media screen and (max-width:600px){
+    .scroll{
+        width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+.HistoryMain{
+    display: flex;
+}
+
+.HistoryOne{
+    width: 60%;
+}
+.HistoryTwo{
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.historySingle{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.historyInfomation{
+    /* margin-left: 30px; */
+}
+
+.historySingle img{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:900px){
+    .HistoryMain{
+        flex-direction: column-reverse;
+    }
+    .HistoryTwo{
+        margin-bottom: 40px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .historySingle{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+}
